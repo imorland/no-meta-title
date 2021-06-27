@@ -13,4 +13,7 @@ namespace IanM\NoMetaTitle;
 
 use Flarum\Extend;
 
-return [];
+return [
+    (new Extend\Frontend('forum'))
+        ->js(__DIR__.'/js/dist/forum.js'),
+];
