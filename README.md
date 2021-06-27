@@ -28,5 +28,5 @@ This is extension was commissioned by [heyitsritesh](https://discuss.flarum.org/
 ### Links
 
 - [Packagist](https://packagist.org/packages/ianm/no-meta-title)
-- [GitHub](https://github.com/ianm/no-meta-title)
-- [Discuss](https://discuss.flarum.org/d/27924-no-meta-title)
+- [GitHub](https://github.com/imorland/no-meta-title)
+- [Discuss](https://discuss.flarum.org/d/27924)

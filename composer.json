@@ -9,7 +9,7 @@
   "support": {
     "issues": "https://github.com/imorland/no-meta-title/issues",
     "source": "https://github.com/imorland/no-meta-title",
-    "forum": "https://discuss.flarum.org/d/27924-no-meta-title"
+    "forum": "https://discuss.flarum.org/d/27924"
   },
   "require": {
     "flarum/core": "^1.0.3"
@@ -41,7 +41,7 @@
       }
     },
     "flagrow": {
-      "discuss": "https://discuss.flarum.org/d/27924-no-meta-title"
+      "discuss": "https://discuss.flarum.org/d/27924"
     }
   }
 }
