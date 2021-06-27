@@ -1,0 +1,42 @@
+{
+  "name": "ianm/no-meta-title",
+  "description": "Removes Forum name from html title meta",
+  "keywords": [
+    "flarum"
+  ],
+  "type": "flarum-extension",
+  "license": "MIT",
+  "require": {
+    "flarum/core": "^1.0.3"
+  },
+  "authors": [
+    {
+      "name": "IanM",
+      "homepage": "https://discuss.flarum.org/u/ianm",
+      "role": "Developer"
+    }
+  ],
+  "exclude-from-classmap": [
+    "vendor\\flarum\\core\\src\\Frontend\\Frontend.php"
+  ],
+  "autoload": {
+    "psr-4": {
+      "IanM\\NoMetaTitle\\": "src/",
+      "Flarum\\Frontend\\": "Flarum/"
+    }
+  },
+  "extra": {
+    "flarum-extension": {
+      "title": "No Meta Title",
+      "category": "feature",
+      "icon": {
+        "name": "fas fa-ban",
+        "backgroundColor": "#0072e3",
+        "color": "#fff"
+      }
+    },
+    "flagrow": {
+      "discuss": ""
+    }
+  }
+}
