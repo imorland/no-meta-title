@@ -22,10 +22,14 @@ class Document extends \Flarum\Frontend\Document
     protected function makeTitle(): string
     {
         $onHomePage = rtrim($this->request->getUri()->getPath(), '/') === '';
-        
+
         /** @var ExtensionManager $extensions */
         $extensions = resolve(ExtensionManager::class);
 
-        return $extensions->isEnabled('ianm-no-meta-title') ? ($this->title && ! $onHomePage ? $this->title : '') : ($this->title && ! $onHomePage ? $this->title.' - ' : '').Arr::get($this->forumApiDocument, 'data.attributes.title');
+        if ($extensions->isEnabled('ianm-no-meta-title') && $this->title && !$onHomePage) {
+            return  $this->title;
+        }
+
+        return ($this->title && ! $onHomePage ? $this->title.' - ' : '').Arr::get($this->forumApiDocument, 'data.attributes.title');
     }
 }
