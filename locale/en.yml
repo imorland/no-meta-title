@@ -1,0 +1,5 @@
+ianm-no-meta-title:
+  lib:
+    meta_titles:
+      with_page_title: "{pageNumber, plural, =1 {{pageTitle}} other {{pageTitle}: Page #}}"
+      without_page_title: "{pageNumber, plural, =1 {{forumName}} other {Page # - {forumName}}}"
