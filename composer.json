@@ -21,11 +21,6 @@
       "role": "Developer"
     }
   ],
-  "autoload": {
-    "psr-4": {
-      "IanM\\NoMetaTitle\\": "src/"
-    }
-  },
   "extra": {
     "flarum-extension": {
       "title": "No Meta Title",
